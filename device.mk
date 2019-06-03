@@ -377,8 +377,8 @@ PRODUCT_PACKAGES += \
     thermal.sm6150
 
 # ThermalController app
-PRODUCT_PACKAGES += \
-    ThermalController
+#PRODUCT_PACKAGES += \
+#    ThermalController
 
 # Touchscreen
 PRODUCT_PACKAGES += \
