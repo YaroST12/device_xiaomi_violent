@@ -136,7 +136,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiPocketMode
 
 # Display
 PRODUCT_PACKAGES += \
@@ -146,6 +147,10 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     libqdutils \
     libdrm.vendor \
+    gralloc.sm6150 \
+    hwcomposer.sm6150 \
+    memtrack.sm6150 \
+    libdisplayconfig \
     libqdMetaData.system \
     libtinyxml \
     libvulkan \
