@@ -573,6 +573,8 @@ vendor/lib64/libsdedrm.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmutils.so
 vendor/lib64/libsdm-colormgr-algo.so
+vendor/lib64/libqservice.so
+vendor/lib64/libqdutils.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/gralloc.sm6150.so
 vendor/lib/hw/hwcomposer.sm6150.so
@@ -589,6 +591,8 @@ vendor/lib/libsdedrm.so
 vendor/lib/libsdmcore.so
 vendor/lib/libsdmutils.so
 vendor/lib/libsdm-colormgr-algo.so
+vendor/lib/libqservice.so
+vendor/lib/libqdutils.so
 
 # DPM - from Redmi K20 davinci-user 9 PKQ1.190302.001 V10.3.6.0.PFJCNXM release-keys
 bin/dpmd|b4ab23a880c43a5e32c1b74c3743445d64c3cf25
