@@ -410,10 +410,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk_package
 
-# Wallpapers
-PRODUCT_PACKAGES += \
-    WallpapersBReel2018
-
+# VNDK
+EXTRA_VENDOR_LIBRARIES_64 := \
+    libaudioclient \
+    libaudiomanager \
+    libmediametrics
+    
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
