@@ -14,6 +14,13 @@ $(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Device was launched with P
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
+
+# Memory
+$(call inherit-product, vendor/nitrogen/config/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, vendor/nitrogen/config/phone-xxhdpi-4096-dalvik-heap.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
