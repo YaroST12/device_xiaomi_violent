@@ -225,13 +225,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/violet/BoardConfigVendor.mk
-
-# CAF HALs
-TARGET_QCOM_AUDIO_VARIANT := caf-sm6150
-TARGET_QCOM_MEDIA_VARIANT := caf-sm6150
-TARGET_QCOM_DISPLAY_VARIANT := caf-sm6150
-
-PRODUCT_SOONG_NAMESPACES += \
-    hardware/qcom/audio-$(TARGET_QCOM_AUDIO_VARIANT) \
-    hardware/qcom/display-$(TARGET_QCOM_DISPLAY_VARIANT) \
-    hardware/qcom/media-$(TARGET_QCOM_MEDIA_VARIANT)
