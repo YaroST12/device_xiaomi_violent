@@ -201,3 +201,9 @@ mode: 0771
 user: AID_MEDIA
 group: AID_MEDIA
 caps: 0
+
+[vendor/bin/hw/android.hardware.health@2.0-service]
+mode: 0755
+user: AID_SYSTEM
+group: AID_SYSTEM
+caps: WAKE_ALARM
