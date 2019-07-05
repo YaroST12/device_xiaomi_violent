@@ -1218,13 +1218,13 @@ vendor/lib64/sensors.ssc.so|76988e11609317a9123d8445d848dc1775abeffb
 vendor/lib64/libssc.so|e0e9630e7b8e14c7d5aad63d0525e159e96e25dd
 
 # Soter - from Redmi K20 davinci-user 9 PKQ1.190302.001 V10.3.6.0.PFJCNXM release-keys
--app/SoterService/SoterService.apk|e1897a6b3204f6991daada37bcce0c2b76ee33ef
-framework/vendor.qti.hardware.soter-V1.0-java.jar|36da31dfb0ca292f7e3d3287f460ed3bef38f1c9
-lib64/vendor.qti.hardware.soter@1.0.so|306277aaa2974375cbed96b87e8c0457000823e4
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|ec005f00d95514ac506b264732ea52c87f1cdc64
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|6e5a8d8c6cc81bd71a4adc5245332561f9d6e5ef
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|f0f2792e60e36d16203e1b17fa4905e2433b8dbf
+#-app/SoterService/SoterService.apk|e1897a6b3204f6991daada37bcce0c2b76ee33ef
+#framework/vendor.qti.hardware.soter-V1.0-java.jar|36da31dfb0ca292f7e3d3287f460ed3bef38f1c9
+#lib64/vendor.qti.hardware.soter@1.0.so|306277aaa2974375cbed96b87e8c0457000823e4
+#vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|ec005f00d95514ac506b264732ea52c87f1cdc64
+#vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
+#vendor/lib64/vendor.qti.hardware.soter@1.0.so|6e5a8d8c6cc81bd71a4adc5245332561f9d6e5ef
+#vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|f0f2792e60e36d16203e1b17fa4905e2433b8dbf
 
 # Thermal
 vendor/etc/thermal-engine.conf
