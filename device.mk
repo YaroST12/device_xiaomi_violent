@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiPocketMode
 
 # Display
 PRODUCT_PACKAGES += \
