@@ -1,1 +1,1 @@
-add_lunch_combo lineage_violet-userdebug
+add_lunch_combo xenonhd_violet-userdebug

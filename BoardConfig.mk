@@ -52,7 +52,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_CLANG_VERSION := 9.0
-  TARGET_KERNEL_CLANG_PATH := prebuilts/clang/host/$(HOST_OS)-x86/$(TARGET_KERNEL_CLANG_VERSION)/bin
+  TARGET_KERNEL_CLANG_PATH := /home/yaro/TTHD/toolchains/clang/clang-r353983e/bin
 endif
 
 TARGET_USES_MKE2FS := true
